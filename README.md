@@ -14,7 +14,7 @@ Speaker Recognition Dataset from kaggle was selected.
 
 #### Classic spectrograms 
 * Classic spectrograms were generated using torchaudio.transforms.spectrogram() function from the pytorch audio library.
-* On training of the Resnet-18 model , with the tensor dataset and the regularisation techniques (SGD optimizer), with a learning rate between 1e-3 and 1e-5, 200 epochs, dropout probability between 0.4 and 0.8 and weight decay set to 0.01, we got 92.96875% testing accuracy.
+* On training of the Resnet-18 model , with the tensor dataset and the regularisation techniques (SGD optimizer), with a learning rate between 1e-3 and 1e-5, 200 epochs, dropout probability between 0.4 and 0.8 and weight decay set to 0.01, we got 92.6% testing accuracy.
 
 #### Mel Spectrograms 
 * Mel Spectrograms were generated from torchaudio.transforms.MelSpectrogram() from the pytorch audio library. 
@@ -23,6 +23,6 @@ Speaker Recognition Dataset from kaggle was selected.
 #### MFCCs 
 * MFCC features are the most commonly used features for speaker recognition.
 * MFCC features were generated using torchaudio.transforms.MFCC() function from the PyTorch audio library.
-* Once again, on training of the Resnet-18 model , with the tensor dataset and the regularisation techniques (SGD optimizer), with a learning rate between 1e-3 and 1e-4, 100 epochs, dropout probability between 0.4 and 0.8 and weight decay set to 0.01, we got 95.20089%  testing accuracy.
+* Once again, on training of the Resnet-18 model , with the tensor dataset and the regularisation techniques (SGD optimizer), with a learning rate between 1e-3 and 1e-4, 100 epochs, dropout probability between 0.4 and 0.8 and weight decay set to 0.01, we got 95.3%  testing accuracy.
 
 
